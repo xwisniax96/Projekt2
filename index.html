@@ -1,37 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl-pl">
     <head>
+        <title>Strona testowa</title>
+        
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;800&display=swap" rel="stylesheet">     
     </head>
 <body>
 
 
-<div id ="header">
-<ul class="list-none m-0 p-5 overflow-hidden bg-gray-600 flex items-center justify-between h-10 text-gray-400 font-sans">
-    <div class="flex h-full items-center space-x-7">
-        <li class="mr-2 h-full">
-            <a class="active hover:text-white hover:bg-gray-700	h-full flex items-center" href="#home">Home</a>
+
+<div class="flex m-0  bg-gray-800  justify-between h-13 text-gray-400">
+    <ul class="flex h-full items-center space-x-7">
+        <li class="h-full">
+            <a class=" p-5 active hover:text-white hover:bg-gray-700 duration-300 h-full flex items-center" href="#home">Home</a>
         </li>
-        <li class="mr-2 h-full">
-            <a class="active hover:text-white hover:bg-gray-700 h-full flex items-center" href="#news"> Featured Work</a>
+        <li class="h-full">
+            <a class="p-5 active hover:text-white hover:bg-gray-700 duration-300 h-full flex items-center" href="#news"> Featured Work</a>
         </li>
-        <li class="mr-2 h-full">
-            <a class="active hover:text-white hover:bg-gray-700 h-full flex items-center" href="#contact">About Us</a>
+        <li class="h-full">
+            <a class="p-5 active hover:text-white hover:bg-gray-700 duration-300 h-full flex items-center" href="#contact">About Us</a>
         </li>
-        <li class="mr-2 h-full">
-            <a class="active hover:text-white hover:bg-gray-700 h-full flex items-center" href="#about">Contact</a>
+        <li class="h-full">
+            <a class="p-5 active hover:text-white hover:bg-gray-700 duration-300 h-full flex items-center" href="#about">Contact</a>
         </li>
-    </div>
-    <li class="float-right hover:text-white hover:bg-gray-700 h-full flex items-center"><a href="mailto:xwisniax96@gmail.com">Mail me</a></li>
-</ul>
+      
+    </ul>
+    <li class="p-5 hover:text-white hover:bg-gray-700 h-full flex items-center duration-300"><a href="mailto:xwisniax96@gmail.com">Mail me</a></li>
 </div>
+
 <div id ="content">
     <div class="1st">
-
+        
     </div>
     <div class="2nd">
         
@@ -47,6 +50,17 @@
 <div id="footer">
 
 </div>
+
+<style>
+    li{
+        font-family: 'Work Sans', sans-serif;
+    }  
+    #content
+    {
+        font-family:'Courier New', Courier, monospace
+    }
+</style>
+    
 
 </body>
 </html>
